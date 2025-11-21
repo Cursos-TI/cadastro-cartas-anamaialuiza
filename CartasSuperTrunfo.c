@@ -39,6 +39,11 @@ int main() {
   printf("Carta SuperTrunfo1 \n");//Imprimir a carta 1
   printf("Estado: %c\n", estado);
   printf("Código da cidade: %c%d%s  \n", estado, codigocarta, nomecidade);
+  printf("Nome da cidade: %s\n", nomecidade);
+  printf("População da cidade: %d \n", população);
+  printf("Área da cidade: %f\n", area);
+  printf("PIB da cidade: %f \n", pib);
+  printf("Número de Pontos Turísticos da cidade: %d\n", pontosturisticos);
   
   return 0;
 
