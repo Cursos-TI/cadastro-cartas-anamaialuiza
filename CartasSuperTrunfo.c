@@ -21,6 +21,19 @@ int main() {
   printf("Digite um número de 1 a 4: \n");// O usuário deverá digitar um número de 1 a 4
   scanf("%d", codigocarta);
 
+  printf("Digite o nome da cidade: \n");// O usuário deverá digitar o nome da cidade
+  scanf("%s", &nomecidade);
+
+  printf("Digite a população da cidade: \n"); // O usuário deverá digitar a população da cidade
+  scanf("%f", &população);
+
+  printf("Digite a área da cidade em quilômetros quadrados: \n");//O usuário deverá digitar a área da cidade em km²
+  scanf("%f", &area);
+
+  printf("Digite o PIB da cidade:\n");// O usuário deverá digitar o PIB
+  scanf("%f", &pib);
+  
+
 
   return 0;
 
