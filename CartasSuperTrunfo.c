@@ -74,11 +74,15 @@ int main() {
   printf("Digite o número de pontos turísticos da cidade:\n");
   scanf("%d", &pontosturisticos);
 
+  printf("CARTA SUPERTRUNFO 2\n");//Imprimir a carta 2
+  printf("Estado:%s\n", estado);
+  printf("Código da cidade: %s%i%s\n", estado, codigocarta, nomecidade);
+  printf("Nome da cidade: %s\n", nomecidade);
+  printf("População: %d\n", população);
+  printf("Área: %f\n", area);
+  printf("PIB:%f\n", pib);
+  printf("Pontos Turísticos:%d\n", pontosturisticos);
 
-
-  
-  
-  
   
   return 0;
 
