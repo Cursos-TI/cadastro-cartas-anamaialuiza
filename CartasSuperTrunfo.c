@@ -6,7 +6,7 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    char estado[2];
+    char estado;
     char codigocarta;
     char nomecidade [15];
     int população;
@@ -50,12 +50,17 @@ int main() {
  //Área para introduzir os dados pelo usuário para CARTA 2
   printf("\n");
   printf("Passo 2: insira os dados da carta 2 do jogo Supertrunfo\n");
-  
-  printf("Digite uma letra de 'A' a 'H':\n");
-  scanf("%c", &estado);
 
-  printf("Digite um número de 1 a 4: \n");
-  scanf("%d", &codigocarta);
+
+  printf("Digite uma letra de 'A' a 'H':\n");
+  scanf("%s", &estado);
+
+  printf("Digite um número de 1 a 4:\n");
+  scanf("%i", &codigocarta);
+
+  printf("Digite o nome da cidade:\n");
+  scanf("%s", &nomecidade);
+
 
   printf("Digite a população da cidade: \n");
   scanf("%d", &população);
@@ -68,6 +73,8 @@ int main() {
 
   printf("Digite o número de pontos turísticos da cidade:\n");
   scanf("%d", &pontosturisticos);
+
+
 
   
   
